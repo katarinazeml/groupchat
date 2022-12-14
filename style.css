@@ -1,0 +1,100 @@
+body{
+    background: rgb(237, 218, 247);
+}
+.container {
+    margin: 60px auto;
+    background-color: rgb(215, 176, 247);
+    padding: 0;
+    border-radius: 7px;
+}
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.settings-tray {
+    background-color: rgb(215, 176, 247);
+    padding: 10px 15px;
+    border-radius: 0px;
+}
+.search-image {
+    width: 15px;
+    height: 15px;
+}
+.search-box {
+    background-color: rgb(215, 176, 247);
+    padding: 10px 13px;
+}
+.input-wrapper {
+    background-color: white;
+    border-radius: 5px;
+
+}
+.menu-image {
+    width: 15px;
+    height: 15px;
+    float:right
+}
+input {
+    border: none;
+    border-radius: 20px;
+    width: 90%;
+    outline: none;
+    position: relative;
+    left:5px; 
+}
+.friend-drawer {
+    padding: 10px 15px;
+    display: flex;
+    vertical-align: baseline;
+    background-color: rgb(245, 244, 247);
+    transition: .3s ease;
+}
+.text-muted{
+    margin-left: 12px;
+}
+.h6{
+    margin-left: 12px;
+}
+.right-box{
+    margin-left: 12px;
+}
+.no-gutters{
+    border-radius: 7px; 
+}
+.chat-bubble--left{
+    padding: 10px 14px;
+    background-color: white;
+    margin: 10px 30px;
+    border-radius: 9px;
+    position: relative;
+    width: 150px;
+}
+.chat-panel{
+    background-color: rgb(108, 58, 113);
+}
+.chat-bubble--right{
+    padding: 10px 14px;
+    background-color: rgb(174, 139, 245);
+    margin: 10px 30px;
+    border-radius: 9px;
+    position: relative;
+    left:500px; 
+    top:0px;
+    width: 150px;
+}
+.smile{
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    position: relative;
+    left:5px; 
+}
+.chat-box-tray{
+    background-color: white;
+    border-radius: 5px;
+    height: 50px; 
+}
+.chat-box-tray{
+    background:rgb(174, 139, 245);
+}
